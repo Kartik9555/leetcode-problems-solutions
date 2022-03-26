@@ -1,4 +1,4 @@
-package src.com.leetcode.practice1;/* Julius Caesar protected his confidential information by encrypting it in a cipher. Caesar's cipher rotated every letter in a string by a fixed number,K , making it unreadable by his enemies. Given a string, S, and a number, N, encrypt  and print the resulting string.
+/* Julius Caesar protected his confidential information by encrypting it in a cipher. Caesar's cipher rotated every letter in a string by a fixed number,K , making it unreadable by his enemies. Given a string, S, and a number, N, encrypt  and print the resulting string.
 Note: The cipher only encrypts letters; symbols, such as -, remain unencrypted.
 Input Format
 The first line contains an integer,N , which is the length of the unencrypted string. 
@@ -30,8 +30,9 @@ m (ASCII 109) becomes  o (ASCII 111).
 i (ASCII 105) becomes  k (ASCII 107). 
 - remains the same, as symbols are not encoded. 
 O (ASCII 79) becomes  Q(ASCII 81). 
-z (ASCII 122) becomes  b(ASCII 98); because  is the last letter of the alphabet,  a(ASCII 97) is the next letter after it in lower-case rotation. */
-
+z (ASCII 122) becomes  b(ASCII 98); because  is the last letter of the alphabet,  a(ASCII 97) is the next letter after it in lower-case rotation. 
+*/
+package src.com.leetcode.practice1;
 
 import java.io.*;
 import java.util.*;
